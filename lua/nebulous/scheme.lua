@@ -322,15 +322,6 @@ function setup.load_colors(scheme, settings)
     IlluminatedWordText =  { fg = scheme.none, bg = scheme.DarkBlue,  scheme.none },
     IlluminatedWordRead =  { fg = scheme.none, bg = scheme.DarkGreen, scheme.none },
     IlluminatedWordWrite = { fg = scheme.none, bg = scheme.DarkRed,   scheme.none },
-
-    -- Indent blankline
-    RainbowIndentRed =    { fg = scheme.DarkRed,     bg = scheme.none, scheme.none },
-    RainbowIndentCyan =   { fg = scheme.DarkCyan,    bg = scheme.none, scheme.none },
-    RainbowIndentViolet = { fg = scheme.DarkMagenta, bg = scheme.none, scheme.none },
-    RainbowIndentYellow = { fg = scheme.DarkYellow,  bg = scheme.none, scheme.none },
-    RainbowIndentBlue =   { fg = scheme.DarkBlue,    bg = scheme.none, scheme.none },
-    RainbowIndentOrange = { fg = scheme.DarkOrange,  bg = scheme.none, scheme.none },
-    RainbowIndentGreen =  { fg = scheme.DarkGreen,   bg = scheme.none, scheme.none },
         
     -- Rainbow Delimiters
     RainbowDelimiterRed =    { fg = scheme.Red,     bg = scheme.none, scheme.none },
