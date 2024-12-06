@@ -319,9 +319,9 @@ function setup.load_colors(scheme, settings)
     DashboardShortCut = { fg = scheme.Purple,     bg = scheme.none, scheme.none },
 
     -- Illuminate
-    IlluminatedWordText =  { fg = scheme.none, bg = colors.DarkBlue,  scheme.none },
-    IlluminatedWordRead =  { fg = scheme.none, bg = colors.DarkGreen, scheme.none },
-    IlluminatedWordWrite = { fg = scheme.none, bg = colors.DarkRed,   scheme.none },
+    IlluminatedWordText =  { fg = scheme.none, bg = scheme.DarkBlue,  scheme.none },
+    IlluminatedWordRead =  { fg = scheme.none, bg = scheme.DarkGreen, scheme.none },
+    IlluminatedWordWrite = { fg = scheme.none, bg = scheme.DarkRed,   scheme.none },
 
     -- Indent blankline
     RainbowIndentRed =    { fg = scheme.DarkRed,     bg = scheme.none, scheme.none },
