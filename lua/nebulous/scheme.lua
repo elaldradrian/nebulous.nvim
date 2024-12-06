@@ -323,9 +323,23 @@ function setup.load_colors(scheme, settings)
     illuminatedWord =    { fg = scheme.none, bg = scheme.Grey, scheme.none },
 
     -- Indent blankline
-    IndentBlanklineChar =        { fg = scheme.DarkGrey, bg = scheme.none, scheme.none },
-    IndentBlanklineContextChar = { fg = scheme.White,    bg = scheme.none, scheme.none },
-
+    RainbowIndentRed =    { fg = scheme.DarkRed,     bg = scheme.none, scheme.none },
+    RainbowIndentCyan =   { fg = scheme.DarkCyan,    bg = scheme.none, scheme.none },
+    RainbowIndentViolet = { fg = scheme.DarkMagenta, bg = scheme.none, scheme.none },
+    RainbowIndentYellow = { fg = scheme.DarkYellow,  bg = scheme.none, scheme.none },
+    RainbowIndentBlue =   { fg = scheme.DarkBlue,    bg = scheme.none, scheme.none },
+    RainbowIndentOrange = { fg = scheme.DarkOrange,  bg = scheme.none, scheme.none },
+    RainbowIndentGreen =  { fg = scheme.DarkGreen,   bg = scheme.none, scheme.none },
+        
+    -- Rainbow Delimiters
+    RainbowDelimiterRed =    { fg = scheme.Red,     bg = scheme.none, scheme.none },
+    RainbowDelimiterCyan =   { fg = scheme.Cyan,    bg = scheme.none, scheme.none },
+    RainbowDelimiterViolet = { fg = scheme.Magenta, bg = scheme.none, scheme.none },
+    RainbowDelimiterYellow = { fg = scheme.Yellow,  bg = scheme.none, scheme.none },
+    RainbowDelimiterBlue =   { fg = scheme.Blus,    bg = scheme.none, scheme.none },
+    RainbowDelimiterOrange = { fg = scheme.Orange,  bg = scheme.none, scheme.none },
+    RainbowDelimiterGreen =  { fg = scheme.Green,   bg = scheme.none, scheme.none },
+        
     -- Nvim dap
     DapBreakpoint = { fg = scheme.DarkRed,   bg = scheme.none, scheme.none },
     DapStopped =    { fg = scheme.DarkGreen, bg = scheme.none, scheme.none },
