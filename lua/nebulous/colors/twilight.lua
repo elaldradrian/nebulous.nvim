@@ -1,6 +1,6 @@
 local Twilight = {}
 --Light colors
-Twilight.background  = "#010018"
+Twilight.background  = "#000000"
 Twilight.Red         = "#FE5D8B"
 Twilight.Blue        = "#47B5D8"
 Twilight.Green       = "#8CFE7C"
