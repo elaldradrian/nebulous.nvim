@@ -320,8 +320,8 @@ function setup.load_colors(scheme, settings)
 
     -- Illuminate
     IlluminatedWordText =  { fg = scheme.none, bg = scheme.DarkBlue,  scheme.none },
-    IlluminatedWordRead =  { fg = scheme.none, bg = scheme.DarkGreen, scheme.none },
-    IlluminatedWordWrite = { fg = scheme.none, bg = scheme.DarkRed,   scheme.none },
+    IlluminatedWordRead =  { fg = scheme.none, bg = scheme.DarkBlue, scheme.none },
+    IlluminatedWordWrite = { fg = scheme.none, bg = scheme.DarkBlue,   scheme.none },
         
     -- Rainbow Delimiters
     RainbowDelimiterRed =    { fg = scheme.Red,     bg = scheme.none, scheme.none },
