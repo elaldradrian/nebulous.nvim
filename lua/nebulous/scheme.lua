@@ -371,6 +371,9 @@ function setup.load_colors(scheme, settings)
     CmpItemKindOperator =      { fg = scheme.Cyan,       bg = scheme.none, scheme.none },
     CmpItemKindTypeParameter = { fg = scheme.Yellow,     bg = scheme.none, scheme.none },
 
+    -- Notify
+    NotifyBackground =         { fg = scheme.Black,      bg = scheme.none, scheme.none },
+
     -- BufferLine
     BufferLineIndicatorSelected = { fg = scheme.DarkOrange, bg = scheme.background, scheme.none },
     BufferLineFill =              { fg = scheme.DarkGrey,   bg = scheme.Custom_1, scheme.none },
