@@ -379,14 +379,14 @@ function setup.load_colors(scheme, settings)
     BufferLineFill =              { fg = scheme.DarkGrey,   bg = scheme.Custom_1, scheme.none },
 
     -- HLChunk
-    HLLineNum =     { fg = scheme.Cyan, bg = scheme.none, scheme.none }
-    HLChunkRed =    RainbowDelimiterRed
-    HLChunkCyan =   RainbowDelimiterCyan
-    HLChunkVialet = RainbowDelimiterViolet
-    HLChunkYellow = RainbowDelimiterYellow
-    HLChunkBlue =   RainbowDelimiterBlue
-    HLChunkOrange = RainbowDelimiterOrange
-    HLChunkGreen =  RainbowDelimiterGreen
+    HLLineNum =     { fg = scheme.Cyan, bg = scheme.none, scheme.none },
+    HLChunkRed =    RainbowDelimiterRed,
+    HLChunkCyan =   RainbowDelimiterCyan,
+    HLChunkVialet = RainbowDelimiterViolet,
+    HLChunkYellow = RainbowDelimiterYellow,
+    HLChunkBlue =   RainbowDelimiterBlue,
+    HLChunkOrange = RainbowDelimiterOrange,
+    HLChunkGreen =  RainbowDelimiterGreen,
 
   }
 
