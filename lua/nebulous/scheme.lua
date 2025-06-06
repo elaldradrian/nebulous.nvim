@@ -377,6 +377,17 @@ function setup.load_colors(scheme, settings)
     -- BufferLine
     BufferLineIndicatorSelected = { fg = scheme.DarkOrange, bg = scheme.background, scheme.none },
     BufferLineFill =              { fg = scheme.DarkGrey,   bg = scheme.Custom_1, scheme.none },
+
+    -- HLChunk
+    HLLineNum =     { fg = scheme.Cyan, bg = scheme.none, scheme.none }
+    HLChunkRed =    RainbowDelimiterRed
+    HLChunkCyan =   RainbowDelimiterCyan
+    HLChunkVialet = RainbowDelimiterViolet
+    HLChunkYellow = RainbowDelimiterYellow
+    HLChunkBlue =   RainbowDelimiterBlue
+    HLChunkOrange = RainbowDelimiterOrange
+    HLChunkGreen =  RainbowDelimiterGreen
+
   }
 
   if settings.term_colors == false then
