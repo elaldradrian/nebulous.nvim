@@ -328,7 +328,7 @@ function setup.load_colors(scheme, settings)
     RainbowDelimiterCyan =   { fg = scheme.Cyan,    bg = scheme.none, scheme.none },
     RainbowDelimiterViolet = { fg = scheme.Magenta, bg = scheme.none, scheme.none },
     RainbowDelimiterYellow = { fg = scheme.Yellow,  bg = scheme.none, scheme.none },
-    RainbowDelimiterBlue =   { fg = scheme.Blus,    bg = scheme.none, scheme.none },
+    RainbowDelimiterBlue =   { fg = scheme.Blue,    bg = scheme.none, scheme.none },
     RainbowDelimiterOrange = { fg = scheme.Orange,  bg = scheme.none, scheme.none },
     RainbowDelimiterGreen =  { fg = scheme.Green,   bg = scheme.none, scheme.none },
         
