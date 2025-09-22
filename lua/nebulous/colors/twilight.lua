@@ -28,5 +28,6 @@ Twilight.DarkGreen = "#006622"
 Twilight.DarkYellow = "#997A00"
 Twilight.DarkMagenta = "#993380"
 Twilight.DarkCyan = "#008577"
+Twilight.DarkGrey = "#0b0b14"
 
 return Twilight
