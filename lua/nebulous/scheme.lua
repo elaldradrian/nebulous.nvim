@@ -36,13 +36,13 @@ function setup.load_colors(scheme, settings)
   local editor = {
     Boolean = { fg = scheme.DarkYellow, bg = scheme.none, scheme.none },
     Character = { fg = scheme.Orange, bg = scheme.none, scheme.none },
-    ColorColumn = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
+    ColorColumn = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
     Comment = { fg = scheme.Grey, bg = scheme.none, style = settings.st_comments },
     Conceal = { fg = scheme.Blue, bg = scheme.none, scheme.none },
     Conditional = { fg = scheme.Red, bg = scheme.none, scheme.none },
     Constant = { fg = scheme.Orange, bg = scheme.none, scheme.none },
     Cursor = { fg = scheme.none, bg = scheme.Orange, scheme.none },
-    CursorColumn = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
+    CursorColumn = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
     CursorIM = { fg = scheme.none, bg = scheme.none, scheme.none },
     CursorLine = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
     CursorLineNr = { fg = scheme.White, bg = scheme.DarkGrey, scheme.none },
@@ -74,7 +74,7 @@ function setup.load_colors(scheme, settings)
     NormalFloat = { fg = scheme.White, bg = scheme.background, scheme.none },
     Number = { fg = scheme.Red, bg = scheme.none, scheme.none },
     Operator = { fg = scheme.White, bg = scheme.none, scheme.none },
-    PMenu = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
+    PMenu = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
     PMenuSbar = { fg = scheme.none, bg = scheme.Grey, scheme.none },
     PMenuSel = { fg = scheme.Black, bg = scheme.Orange, scheme.none },
     PMenuThumb = { fg = scheme.none, bg = scheme.Yellow, scheme.none },
@@ -221,9 +221,9 @@ function setup.load_colors(scheme, settings)
     LspDiagnosticsVirtualTextHint = { fg = scheme.Custom_2, bg = scheme.none, scheme.none },
     LspDiagnosticsVirtualTextInformation = { fg = scheme.Custom_3, bg = scheme.none, scheme.none },
     LspDiagnosticsVirtualTextWarning = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
-    LspReferenceRead = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
-    LspReferenceText = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
-    LspReferenceWrite = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
+    LspReferenceRead = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
+    LspReferenceText = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
+    LspReferenceWrite = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
 
     -- Nvim 0.6.x LSP
     DiagnosticFloatingWarn = { fg = scheme.DarkOrange, bg = scheme.none, style = "underline" },
@@ -278,11 +278,11 @@ function setup.load_colors(scheme, settings)
 
     -- Neogit
     NeogitBranch = { fg = scheme.Yellow, bg = scheme.none, scheme.none },
-    NeogitDiffAddHighlight = { fg = scheme.DarkGreen, bg = scheme.LightGrey, scheme.none },
-    NeogitDiffContextHighlight = { fg = scheme.Orange, bg = scheme.LightGrey, scheme.none },
-    NeogitDiffDeleteHighlight = { fg = scheme.DarkRed, bg = scheme.LightGrey, scheme.none },
+    NeogitDiffAddHighlight = { fg = scheme.DarkGreen, bg = scheme.DarkGrey, scheme.none },
+    NeogitDiffContextHighlight = { fg = scheme.Orange, bg = scheme.DarkGrey, scheme.none },
+    NeogitDiffDeleteHighlight = { fg = scheme.DarkRed, bg = scheme.DarkGrey, scheme.none },
     NeogitHunkHeader = { fg = scheme.White, bg = scheme.background, scheme.none },
-    NeogitHunkHeaderHighlight = { fg = scheme.Blue, bg = scheme.LightGrey, scheme.none },
+    NeogitHunkHeaderHighlight = { fg = scheme.Blue, bg = scheme.DarkGrey, scheme.none },
     NeogitObjectId = { fg = scheme.Purple, bg = scheme.none, scheme.none },
     NeogitRemote = { fg = scheme.Yellow, bg = scheme.none, scheme.none },
 
