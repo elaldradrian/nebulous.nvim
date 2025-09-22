@@ -407,6 +407,11 @@ function setup.load_colors(scheme, settings)
     AvantePopupHint = { fg = scheme.Purple, bg = scheme.none, scheme.none },
     AvanteInlineHint = { fg = scheme.DarkMagenta, bg = scheme.none, scheme.none },
     AvantePromptInput = { fg = scheme.Orange, bg = scheme.none, scheme.none },
+    AvanteConflictCurrent = { fg = scheme.Red, bg = scheme.none, scheme.none },
+    AvanteConflictIncoming = { fg = scheme.Cyan, bg = scheme.none, scheme.none },
+    AvanteConflictCurrentLabel = { fg = scheme.DarkRed, bg = scheme.none, scheme.none },
+    AvanteConflictIncomingLabel = { fg = scheme.DarkCyan, bg = scheme.none, scheme.none },
+    AvantePromptInputBorder = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
   }
 
   if settings.term_colors == false then
