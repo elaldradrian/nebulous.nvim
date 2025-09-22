@@ -45,7 +45,7 @@ function setup.load_colors(scheme, settings)
     CursorColumn = { fg = scheme.none, bg = scheme.LightGrey, scheme.none },
     CursorIM = { fg = scheme.none, bg = scheme.none, scheme.none },
     CursorLine = { fg = scheme.none, bg = scheme.DarkGrey, scheme.none },
-    CursorLineNr = { fg = scheme.White, bg = scheme.LightGrey, scheme.none },
+    CursorLineNr = { fg = scheme.White, bg = scheme.DarkGrey, scheme.none },
     DiffAdd = { fg = scheme.Green, bg = scheme.none, style = "reverse" },
     DiffChange = { fg = scheme.Orange, bg = scheme.none, style = "reverse" },
     DiffDelete = { fg = scheme.Red, bg = scheme.none, style = "reverse" },
