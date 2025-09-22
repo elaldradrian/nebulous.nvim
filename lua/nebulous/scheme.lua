@@ -398,11 +398,11 @@ function setup.load_colors(scheme, settings)
     NeotestUnknown = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
     NeotestWatching = { fg = scheme.DarkMagenta, bg = scheme.none, scheme.none },
 
-    AvanteTitle = { fg = scheme.White, bg = scheme.none, scheme.none },
+    AvanteTitle = { fg = scheme.White, bg = scheme.Blue, scheme.none },
     AvanteReversedTitle = { fg = scheme.Blue, bg = scheme.none, scheme.none },
-    AvanteSubtitle = { fg = scheme.Custom_3, bg = scheme.none, scheme.none },
+    AvanteSubtitle = { fg = scheme.White, bg = scheme.DarkBlue, scheme.none },
     AvanteReversedSubtitle = { fg = scheme.DarkBlue, bg = scheme.none, scheme.none },
-    AvanteThirdTitle = { fg = scheme.Custom_2, bg = scheme.none, scheme.none },
+    AvanteThirdTitle = { fg = scheme.White, bg = scheme.Aqua, scheme.none },
     AvanteReversedThirdTitle = { fg = scheme.Aqua, bg = scheme.none, scheme.none },
     AvantePopupHint = { fg = scheme.Purple, bg = scheme.none, scheme.none },
     AvanteInlineHint = { fg = scheme.DarkMagenta, bg = scheme.none, scheme.none },
@@ -412,6 +412,7 @@ function setup.load_colors(scheme, settings)
     AvanteConflictCurrentLabel = { fg = scheme.DarkRed, bg = scheme.none, scheme.none },
     AvanteConflictIncomingLabel = { fg = scheme.DarkCyan, bg = scheme.none, scheme.none },
     AvantePromptInputBorder = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
+    AvanteSidebarWinSeparator = { fg = scheme.White, bg = scheme.none, scheme.none },
   }
 
   if settings.term_colors == false then
