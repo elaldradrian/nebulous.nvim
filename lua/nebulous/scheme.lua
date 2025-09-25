@@ -101,7 +101,7 @@ function setup.load_colors(scheme, settings)
     Typedef = { fg = scheme.Cyan, bg = scheme.none, scheme.none },
     Underlined = { fg = scheme.none, bg = scheme.none, syle = "underline" },
     VertSplit = { fg = scheme.Pink, bg = scheme.none, scheme.none },
-    Visual = { fg = scheme.none, bg = scheme.none, style = "reverse" },
+    Visual = { fg = scheme.Black, bg = scheme.White, style = "reverse" },
     VisualNOS = { fg = scheme.none, bg = scheme.none, style = "reverse" },
     WarningMsg = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
     Warnings = { fg = scheme.DarkOrange, bg = scheme.none, style = "reverse" },
@@ -412,7 +412,9 @@ function setup.load_colors(scheme, settings)
     AvanteConflictCurrentLabel = { fg = scheme.DarkRed, bg = scheme.none, scheme.none },
     AvanteConflictIncomingLabel = { fg = scheme.DarkCyan, bg = scheme.none, scheme.none },
     AvantePromptInputBorder = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
-    AvanteSidebarWinSeparator = { fg = scheme.White, bg = scheme.none, scheme.none },
+    AvanteSidebarWinSeparator = { fg = scheme.White, bg = scheme.White, scheme.none },
+    AvanteSidebarWinHorizontalSeparator = { fg = scheme.White, bg = scheme.White, scheme.none },
+    AVANTE_SIDEBAR_NORMAL = { fg = scheme.White, bg = scheme.White, scheme.none },
   }
 
   if settings.term_colors == false then
