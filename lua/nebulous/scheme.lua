@@ -412,9 +412,9 @@ function setup.load_colors(scheme, settings)
     AvanteConflictCurrentLabel = { fg = scheme.DarkRed, bg = scheme.none, scheme.none },
     AvanteConflictIncomingLabel = { fg = scheme.DarkCyan, bg = scheme.none, scheme.none },
     AvantePromptInputBorder = { fg = scheme.DarkOrange, bg = scheme.none, scheme.none },
-    AvanteSidebarWinSeparator = { fg = scheme.White, bg = scheme.White, scheme.none },
-    AvanteSidebarWinHorizontalSeparator = { fg = scheme.White, bg = scheme.White, scheme.none },
-    AVANTE_SIDEBAR_NORMAL = { fg = scheme.White, bg = scheme.White, scheme.none },
+    AvanteSidebarWinSeparator = { fg = scheme.White, bg = scheme.none, scheme.none },
+    AvanteSidebarWinHorizontalSeparator = { fg = scheme.none, bg = scheme.White, scheme.none },
+    AvanteSidebarNormal = { fg = scheme.White, bg = scheme.none, scheme.none },
   }
 
   if settings.term_colors == false then
